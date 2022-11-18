@@ -1,0 +1,17 @@
+[package]
+name = "ffmpeg-upload"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+actix-rt = "2"
+actix-web = "4"
+awmp = { version = "0.8.1", default-features = false, features = ["v4"] }
+serde = { version = "1.0.147", features = ["derive"] }
+serde_json = "*"
+mysql = "20.0.0"
+rand = "0.8.5"
+tokio = "1.*"
+serde_yaml= "*"

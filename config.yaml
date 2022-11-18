@@ -1,0 +1,6 @@
+# 文件缓存地址
+src : C:\Users\HongTJiang\Desktop\PYTHON
+# 端口号
+port: 1080
+# ip地址
+addr: 127.0.0.1
